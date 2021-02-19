@@ -1,34 +1,20 @@
-# cs225a Grocery Robot
+# CMU 15-112 Term Project (2017)
+This is a village simulator game I created for my Spring 2017 15-112 term project at CMU
 
-This repository contain the simulation of a robot that pick and place objects from a shelf and then does checkout on a "Grocery Store"
+You can find the video of the game in:
+https://www.youtube.com/watch?v=mPxDXxotYWc
 
-You can find the video of the simulation in:
-https://youtu.be/f_2yzn_A708
+## run the game
+python game.py
 
-## Dependencies
-The project depends on the sai2 libraries.
-For more information please check http://khatib.stanford.edu/projects/controlandsimulation.html
+## game features
+1. Build buildings (need to assign workers)
+2. Collect resources (click once on top left of bounding box, then on the bottom right of the box where you want to collect the resource)
+3. Population growth
+4. Farming
+5. Chopping & growing trees via forester
+6. Collecting wild food via gatherer's hut
+7. Natural tree growth
 
-
-## Build and run
-Inside the SAI2/app folder copy this repo.
-In the repo folder make a build folder and compile from there
-```
-mkdir build
-cd build
-cmake .. && make -j4
-```
-## run the code
-in a terminal do
-```
-cd bin/grocery_robot
-./simviz_grocery_robot 
-```
-
-and in other terminal:
-```
-cd bin/grocery_robot
-./controller_grocery_robot 
-```
-
-
+## more description of the project:
+https://www.jeff-zhang.com/village-simulator-game
