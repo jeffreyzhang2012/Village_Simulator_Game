@@ -4,6 +4,9 @@ This is a village simulator game I created for my Spring 2017 15-112 term projec
 You can find the video of the game in:
 https://www.youtube.com/watch?v=mPxDXxotYWc
 
+## dependencies
+pip install pygame
+
 ## run the game
 python game.py
 
